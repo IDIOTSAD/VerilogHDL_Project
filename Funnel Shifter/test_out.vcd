@@ -1,0 +1,93 @@
+$date
+	Fri Mar 05 19:06:39 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module top $end
+$scope module dut $end
+$var wire 8 ! i [7:0] $end
+$var wire 3 " kind_shift [2:0] $end
+$var wire 4 # s_count [3:0] $end
+$var reg 8 $ c [7:0] $end
+$var reg 8 % o [7:0] $end
+$var reg 8 & s [7:0] $end
+$var reg 16 ' temp [15:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b100 '
+b0 &
+b100 %
+b10 $
+b1 #
+b0 "
+b10 !
+$end
+#100
+b1 %
+b1 '
+b10 &
+b0 $
+b1 "
+#200
+b100 %
+b100 '
+b0 &
+b10 $
+b10 "
+#300
+b1 %
+b1 '
+b10 &
+b0 $
+b11 "
+#400
+b100 %
+b10000000100 '
+b10 $
+b100 "
+#500
+b1 %
+b100000001 '
+b101 "
+#600
+b11111100 %
+b111111100 '
+b0 &
+b11111110 $
+b0 "
+b11111110 !
+#700
+b1111111 %
+b1111111 '
+b11111110 &
+b0 $
+b1 "
+#800
+b11111101 %
+b1111111111111101 '
+b11111111 &
+b11111110 $
+b10 "
+#900
+b1111111 %
+b1111111 '
+b11111110 &
+b0 $
+b11 "
+#1000
+b11111101 %
+b1111110111111101 '
+b11111110 $
+b100 "
+#1100
+b1111111 %
+b111111101111111 '
+b101 "
+#1200
